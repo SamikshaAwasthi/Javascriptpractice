@@ -20,9 +20,12 @@ string are stroed in 3 ways
 // methods of string
 // String slice()=> slice method is used to extracts a part of string and
 //  return extrated part in new a string
-// let s = "Nazim khan"
+let s = "Nazim khan"
 // let d = s.slice(1,4)
+// let d=s.slice(0)
+// let d = s.slice(undefined,4)
 // console.log(d)
+
 
 // substring method => substring method is work similer to slice method 
 // console.log(s.substring(1,4)) substring innore the negative value and start with 0
@@ -106,7 +109,7 @@ string are stroed in 3 ways
 
 // 1.indexof() => The indexOf() method returns the index (position) the first occurrence of a string 
 // in a string:
-let st ="samiksha awasthi is a good employee of company"
+// let st ="samiksha awasthi is a good employee of company"
 // console.log(st.indexOf('employee'))
 
 // 2.lastindexof()=> the lastindexof() method return the index last occurance of a string
@@ -126,4 +129,4 @@ let st ="samiksha awasthi is a good employee of company"
 // console.log(st.includes('awasthi'))
 
 //split method => split method split the string using  space, comma underscore hypen any symbol character
-console.log(st.split(''))
+// console.log(st.split(''))
